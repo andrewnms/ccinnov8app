@@ -23,5 +23,5 @@ body {
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-green to-accent-blue;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
 }
