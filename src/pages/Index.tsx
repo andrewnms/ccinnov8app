@@ -122,7 +122,7 @@ const Index = () => {
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png" 
+              src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
               alt="Oracle"
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
