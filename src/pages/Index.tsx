@@ -60,13 +60,13 @@ const Index = () => {
           <div className="flex flex-col md:flex-row gap-4 justify-center stagger">
             <Button
               onClick={handleWaitlist}
-              className="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8"
+              className="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8 rounded-none"
             >
               get on the waitlist
             </Button>
             <Button
               variant="outline"
-              className="border-white text-white hover:bg-white/10"
+              className="border-white text-white hover:bg-white/10 rounded-none"
             >
               class syllabus
             </Button>
