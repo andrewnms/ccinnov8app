@@ -118,7 +118,7 @@ const Index = () => {
               className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
             />
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
             <img 
               src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
               alt="Apple"
