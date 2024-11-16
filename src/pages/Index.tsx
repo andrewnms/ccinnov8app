@@ -110,31 +110,31 @@ const Index = () => {
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             founder investor builder dreamer...
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center stagger">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 items-center justify-items-center stagger">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" 
+              src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg" 
               alt="Apple"
-              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://nowserving.co/wp-content/uploads/2021/07/nowserving-logo.png" 
+              src="https://nowserving.co/wp-content/uploads/2021/07/nowserving-logo-white.png" 
               alt="Now Serving"
-              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png" 
+              src="https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-White.png" 
               alt="Oracle"
-              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" 
+              src="https://www.amd.com/content/dam/amd/images/logos/amd-logo-white.svg" 
               alt="AMD"
-              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2560px-Microsoft_logo.svg.png" 
+              src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" 
               alt="Microsoft"
-              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
         </div>
