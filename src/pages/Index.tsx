@@ -12,7 +12,6 @@ const Index = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("active");
-            // Add a staggered effect to child elements
             const children = entry.target.querySelectorAll('.stagger');
             children.forEach((child, index) => {
               setTimeout(() => {
@@ -36,8 +35,8 @@ const Index = () => {
 
   const handleWaitlist = () => {
     toast({
-      title: "Thanks for your interest!",
-      description: "We'll notify you when registration opens.",
+      title: "thanks for your interest!",
+      description: "we'll notify you when registration opens.",
     });
   };
 
@@ -50,25 +49,25 @@ const Index = () => {
             stop studying.
             <br />
             <span className="gradient-text">
-              Start building.
+              start building.
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400 stagger">
-            Experience a new way of learning entrepreneurship with the all new ccinnov8 class.
+            experience a new way of learning entrepreneurship with the all new ccinnov8 class.
           </p>
-          <p className="text-lg mb-8 text-gray-300 stagger">All are welcomed.</p>
+          <p className="text-lg mb-8 text-gray-300 stagger">all are welcomed.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center stagger">
             <Button
               onClick={handleWaitlist}
               className="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8"
             >
-              Get on the waitlist
+              get on the waitlist
             </Button>
             <Button
               variant="outline"
               className="border-white text-white hover:bg-white/10"
             >
-              Class syllabus
+              class syllabus
             </Button>
           </div>
         </div>
@@ -80,16 +79,16 @@ const Index = () => {
           <div className="grid grid-cols-1 gap-8 reveal">
             {[
               {
-                title: "More doing, less lecturing",
+                title: "more doing, less lecturing",
                 description: "we focus on activities to simulate building a startup",
               },
               {
-                title: "Win money and prizes",
+                title: "win money and prizes",
                 description: "life is more fun when you compete with others",
               },
               {
-                title: "Cheating allowed",
-                description: "and it is encouraged! Work smart, not hard.",
+                title: "cheating allowed",
+                description: "and it is encouraged! work smart, not hard.",
               },
             ].map((feature, index) => (
               <div
@@ -107,9 +106,9 @@ const Index = () => {
       {/* Professor Section */}
       <section className="section">
         <div className="max-w-4xl mx-auto text-center reveal">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">Professor - Bowei Gai</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">professor - bowei gai</h2>
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
-            Founder investor builder dreamer...
+            founder investor builder dreamer...
           </p>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center stagger">
             <img 
