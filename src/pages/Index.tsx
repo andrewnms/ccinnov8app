@@ -117,7 +117,7 @@ const Index = () => {
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
-              src="https://nowserving.co/wp-content/uploads/2021/07/nowserving-logo-white.png" 
+              src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
               alt="Now Serving"
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
