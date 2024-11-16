@@ -111,13 +111,32 @@ const Index = () => {
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             Founder investor builder dreamer...
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 stagger">
-            {[1, 2, 3, 4].map((i) => (
-              <div
-                key={i}
-                className="h-12 bg-gray-800 rounded-lg animate-pulse"
-              ></div>
-            ))}
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center stagger">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" 
+              alt="Apple"
+              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+            />
+            <img 
+              src="https://nowserving.co/wp-content/uploads/2021/07/nowserving-logo.png" 
+              alt="Now Serving"
+              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+            />
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png" 
+              alt="Oracle"
+              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+            />
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/AMD_Logo.svg/2560px-AMD_Logo.svg.png" 
+              alt="AMD"
+              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+            />
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2560px-Microsoft_logo.svg.png" 
+              alt="Microsoft"
+              className="h-12 w-auto mx-auto invert opacity-50 hover:opacity-100 transition-opacity"
+            />
           </div>
         </div>
       </section>
