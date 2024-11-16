@@ -110,7 +110,7 @@ const Index = () => {
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             founder investor builder dreamer...
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm mb-12">
             <img 
               src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
               alt="Apple"
@@ -130,6 +130,13 @@ const Index = () => {
               src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
               alt="AMD"
               className="h-8 md:h-12 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+          </div>
+          <div className="stagger">
+            <img 
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&" 
+              alt="Bowei Gai Headshot"
+              className="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl"
             />
           </div>
         </div>
