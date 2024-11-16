@@ -110,35 +110,27 @@ const Index = () => {
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             founder investor builder dreamer...
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger">
-            <div className="p-4 rounded-lg bg-white/5 backdrop-blur-sm">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" 
-                alt="Apple"
-                className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
-              />
-            </div>
-            <div className="p-4 rounded-lg bg-white/5 backdrop-blur-sm">
-              <img 
-                src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
-                alt="Now Serving"
-                className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
-              />
-            </div>
-            <div className="p-4 rounded-lg bg-white/5 backdrop-blur-sm">
-              <img 
-                src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
-                alt="Oracle"
-                className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
-              />
-            </div>
-            <div className="p-4 rounded-lg bg-white/5 backdrop-blur-sm">
-              <img 
-                src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
-                alt="AMD"
-                className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
-              />
-            </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" 
+              alt="Apple"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
+            />
+            <img 
+              src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
+              alt="Now Serving"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+            <img 
+              src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
+              alt="Oracle"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
+            />
+            <img 
+              src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
+              alt="AMD"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+            />
           </div>
         </div>
       </section>
