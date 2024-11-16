@@ -112,9 +112,9 @@ const Index = () => {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm">
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png" 
+              src="https://tse1.mm.bing.net/th?id=OIP.pW0TOZyl_OZMIuo5HjUsyQHaIf&pid=Api" 
               alt="Apple"
-              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
+              className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
