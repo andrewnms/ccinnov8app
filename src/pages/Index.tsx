@@ -34,9 +34,10 @@ const Index = () => {
   }, []);
 
   const handleWaitlist = () => {
+    window.open('https://forms.gle/7vLLZ9yVadfcMNBq8', '_blank');
     toast({
       title: "thanks for your interest!",
-      description: "we'll notify you when registration opens.",
+      description: "redirecting you to the registration form.",
     });
   };
 
