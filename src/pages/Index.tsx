@@ -106,7 +106,7 @@ const Index = () => {
       {/* Professor Section */}
       <section className="section">
         <div className="max-w-4xl mx-auto text-center reveal">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">who's your prof? Bowei. Bowei Gai.</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">who's your prof? Gai. Bowei Gai.</h2>
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             founder investor builder dreamer...
           </p>
