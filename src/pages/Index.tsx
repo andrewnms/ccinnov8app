@@ -38,7 +38,9 @@ const Index = () => {
           <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
             stop studying.
             <br />
-            <span className="gradient-text">Start building.</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
+              Start building.
+            </span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400">
             Experience a new way of learning entrepreneurship with the all new ccinnov8 class.
@@ -47,13 +49,13 @@ const Index = () => {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Button
               onClick={handleWaitlist}
-              className="bg-accent-green hover:bg-accent-green/90 text-black font-bold py-3 px-8"
+              className="bg-white hover:bg-gray-200 text-black font-bold py-3 px-8"
             >
               Get on the waitlist
             </Button>
             <Button
               variant="outline"
-              className="border-accent-blue text-accent-blue hover:bg-accent-blue/10"
+              className="border-white text-white hover:bg-white/10"
             >
               Class syllabus
             </Button>
@@ -81,7 +83,7 @@ const Index = () => {
             ].map((feature, index) => (
               <div
                 key={index}
-                className="p-6 border border-gray-800 rounded-lg hover:border-accent-green transition-colors"
+                className="p-6 border border-gray-800 rounded-lg hover:border-white transition-colors"
               >
                 <h3 className="text-2xl font-bold mb-2">{feature.title}</h3>
                 <p className="text-gray-400 font-mono">{feature.description}</p>
@@ -99,7 +101,6 @@ const Index = () => {
             Founder investor builder dreamer...
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {/* Placeholder company logos */}
             {[1, 2, 3, 4].map((i) => (
               <div
                 key={i}

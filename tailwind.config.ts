@@ -25,8 +25,8 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         accent: {
-          green: "#00FF00",
-          blue: "#0066FF",
+          white: "#FFFFFF",
+          gray: "#808080",
         },
       },
       fontFamily: {
