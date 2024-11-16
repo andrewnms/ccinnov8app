@@ -57,7 +57,7 @@ const Index = () => {
             experience a new way of learning entrepreneurship with the all new ccinnov8 class.
           </p>
           <p className="text-lg mb-8 text-gray-300 stagger">all are welcomed.</p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center stagger">
+          <div className="flex flex-col gap-4 justify-center stagger">
             <Button
               onClick={handleWaitlist}
               className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-6 rounded-none w-[200px] mx-auto"
