@@ -136,7 +136,7 @@ const Index = () => {
             <img 
               src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&" 
               alt="Bowei Gai Headshot"
-              className="w-full max-w-2xl mx-auto rounded-2xl shadow-2xl"
+              className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
             />
           </div>
         </div>
