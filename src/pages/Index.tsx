@@ -127,7 +127,7 @@ const Index = () => {
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
-              src="https://www.amd.com/content/dam/amd/images/logos/amd-logo-white.svg" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AMD_Logo.svg/1280px-AMD_Logo.svg.png" 
               alt="AMD"
               className="h-8 w-auto mx-auto opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
             />
