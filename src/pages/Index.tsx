@@ -108,7 +108,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center reveal">
           <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">who's your prof? a guy named bowei.</h2>
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
-            bowei gai - founder investor builder dreamer...
+            bowei - founder investor builder dreamer...
           </p>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 items-center justify-items-center stagger">
             <img 
