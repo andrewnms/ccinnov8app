@@ -118,7 +118,7 @@ const Index = () => {
               className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
             />
           </div>
-          <p className="text-sm text-gray-400 mb-4 font-mono stagger">(he worked in these companies)</p>
+          <p className="text-sm text-gray-400 mb-4 font-mono stagger">(he worked in these companies btw)</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm">
             <img 
               src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
