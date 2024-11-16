@@ -115,30 +115,30 @@ const Index = () => {
             <img 
               src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&" 
               alt="Bowei Gai Headshot"
-              className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
+              className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
             />
           </div>
           <p className="text-sm text-gray-400 mb-4 font-mono stagger">(he worked in these companies btw)</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger p-8 rounded-lg bg-white/5 backdrop-blur-sm">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8">
             <img 
               src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
               alt="Apple"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert p-1"
+              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
               src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
               alt="Now Serving"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer p-1"
+              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
               alt="Oracle"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert p-1"
+              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
               src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
               alt="AMD"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer p-1"
+              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
         </div>
