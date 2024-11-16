@@ -118,7 +118,6 @@ const Index = () => {
               className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
             />
           </div>
-          <p className="text-sm text-gray-400 mb-4 font-mono stagger">(he worked in these companies btw)</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8">
             <img 
               src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
@@ -141,6 +140,7 @@ const Index = () => {
               className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
+          <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
         </div>
       </section>
     </div>
