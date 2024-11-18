@@ -125,11 +125,6 @@ const Index = () => {
               className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
-              src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
-              alt="Now Serving"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
               src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
               alt="Oracle"
               className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
@@ -137,6 +132,11 @@ const Index = () => {
             <img 
               src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
               alt="AMD"
+              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+            <img 
+              src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
+              alt="Now Serving"
               className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
