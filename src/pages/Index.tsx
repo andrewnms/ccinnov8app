@@ -56,7 +56,7 @@ const Index = () => {
           <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400 stagger">
             experience a new way of learning entrepreneurship with the all new ccinnov8 class.
           </p>
-          <p className="text-lg mb-8 text-gray-300 stagger">all are welcomed.</p>
+          <p className="text-lg mb-8 text-gray-300 stagger">rebels are welcomed.</p>
           <div className="flex flex-col gap-4 justify-center stagger">
             <Button
               onClick={handleWaitlist}
@@ -84,7 +84,7 @@ const Index = () => {
                 description: "we focus on activities to simulate building a startup",
               },
               {
-                title: "win money and prizes",
+                title: "battle for money and prizes",
                 description: "life is more fun when you compete with others",
               },
               {
