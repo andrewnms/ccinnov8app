@@ -114,7 +114,7 @@ const Index = () => {
             <img 
               src="/Screenshot_2024-11-21_at_3.59.24_PM.jpeg" 
               alt="Bowei Gai Headshot"
-              className="w-full max-w-lg mx-auto shadow-2xl border border-white/20 rounded-full"
+              className="w-full max-w-md mx-auto shadow-2xl border border-white/20 rounded-full" // Changed from max-w-lg to max-w-md
             />
           </div>
 
