@@ -118,26 +118,21 @@ const Index = () => {
               className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
             />
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
             <img 
-              src="https://cdn-icons-png.flaticon.com/128/0/747.png" 
+              src="/lovable-uploads/c09f25a2-f9d4-4ba8-9e1f-ad153d1ac73b.png"
               alt="Apple"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
             />
             <img 
-              src="https://zeevector.com/wp-content/uploads/Oracle-Logo-SVG-Download.png" 
+              src="/lovable-uploads/ef5d151b-1836-41a9-9175-8a507f4610cf.png"
               alt="Oracle"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="https://logos-download.com/wp-content/uploads/2016/04/AMD_logo_logotype.png" 
+              src="/lovable-uploads/6cda92de-43c7-40c8-b1f9-f6ca9e06bcd5.png"
               alt="AMD"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
-              src="https://cdn.getgist.com/projects/1075/knowledge_base/original/V2_NS_Landscape.png?1643781815=" 
-              alt="Now Serving"
-              className="h-8 md:h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
           <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
