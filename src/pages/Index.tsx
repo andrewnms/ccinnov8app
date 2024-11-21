@@ -156,6 +156,9 @@ const Index = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 stagger">
             got questions?
           </h2>
+          <p className="text-xl text-gray-400 mb-8 font-mono stagger">
+            contact us here
+          </p>
           <div className="space-y-4 font-mono text-gray-400 stagger">
             <p className="hover:text-white transition-colors">
               ric_pagulayan@gmail.com
