@@ -113,7 +113,7 @@ const Index = () => {
           </p>
           <div className="stagger mb-12">
             <img 
-              src="/boweigaiheadshot.jpeg" 
+              src="/Screenshot_2024-11-21_at_3.59.24_PM.jpeg" 
               alt="Bowei Gai Headshot"
               className="w-full max-w-lg mx-auto shadow-2xl border border-white/20 rounded-full"
             />
