@@ -167,9 +167,10 @@ const Index = () => {
     <div className="mt-8 text-xs text-gray-500 stagger">
       © {new Date().getFullYear()} SeriousMisfits. All rights reserved.
     </div>
-);
-};
   </div>
 </footer>
+);
+};
+
 
 export default Index;
