@@ -120,19 +120,29 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
             <img 
-              src="/lovable-uploads/c09f25a2-f9d4-4ba8-9e1f-ad153d1ac73b.png"
+              src="/lovable-uploads/apple-logo.png"
               alt="Apple"
-              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer invert"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/ef5d151b-1836-41a9-9175-8a507f4610cf.png"
+              src="/lovable-uploads/linkedin-logo.png"
+              alt="LinkedIn"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+            <img 
+              src="/lovable-uploads/hp-logo.png"
+              alt="HP"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+            <img 
+              src="/lovable-uploads/oracle-logo.png"
               alt="Oracle"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/6cda92de-43c7-40c8-b1f9-f6ca9e06bcd5.png"
+              src="/lovable-uploads/amd-logo.png"
               alt="AMD"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
           <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
