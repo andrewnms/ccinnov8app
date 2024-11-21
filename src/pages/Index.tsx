@@ -151,26 +151,23 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-white/10">
-        <div className="max-w-4xl mx-auto text-left px-4 reveal">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 stagger">
-            got questions?
-          </h2>
-          <div className="space-y-2 font-mono text-sm text-gray-400 stagger">
-            <p className="hover:text-white transition-colors cursor-pointer">
-              ric_pagulayan@gmail.com
-            </p>
-            <p className="hover:text-white transition-colors cursor-pointer">
-              sherwin_yaun@dlsu.edu.ph
-            </p>
-          </div>
-          <div className="mt-8 text-xs text-gray-500 stagger">
-            © {new Date().getFullYear()} CCInnov8. All rights reserved.
-          </div>
-        </div>
-      </footer>
+<footer className="py-6 border-t border-white/10">
+  <div className="max-w-4xl mx-auto text-left px-4 reveal">
+    <h2 className="text-2xl md:text-3xl font-bold mb-6 stagger">
+      got questions?
+    </h2>
+    <div className="space-y-2 font-mono text-sm text-gray-400 stagger">
+      <p className="hover:text-white transition-colors cursor-pointer">
+        ric_pagulayan@gmail.com
+      </p>
+      <p className="hover:text-white transition-colors cursor-pointer">
+        sherwin_yaun@dlsu.edu.ph
+      </p>
     </div>
-  );
-};
+    <div className="mt-8 text-xs text-gray-500 stagger">
+      © {new Date().getFullYear()} SeriousMisfits. All rights reserved.
+    </div>
+  </div>
+</footer>
 
 export default Index;
