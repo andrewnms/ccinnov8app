@@ -113,9 +113,9 @@ const Index = () => {
           </p>
           <div className="stagger mb-12">
             <img 
-              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&" 
+              src="/boweigaiheadshot.jpeg" 
               alt="Bowei Gai Headshot"
-              className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
+              className="w-full max-w-lg mx-auto shadow-2xl border border-white/20 rounded-full"
             />
           </div>
 
