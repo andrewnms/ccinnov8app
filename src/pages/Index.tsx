@@ -114,7 +114,7 @@ const Index = () => {
             <img 
               src="/Screenshot_2024-11-21_at_3.59.24_PM.jpeg" 
               alt="Bowei Gai Headshot"
-              className="w-full max-w-md mx-auto shadow-2xl border border-white/20 rounded-full" // Changed from max-w-lg to max-w-md
+              className="w-full max-w-md mx-auto shadow-2xl border border-white/20 rounded-full"
             />
           </div>
 
@@ -147,6 +147,23 @@ const Index = () => {
           </div>
 
           <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="section">
+        <div className="max-w-4xl mx-auto text-center reveal">
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 stagger">
+            got questions?
+          </h2>
+          <div className="space-y-4 font-mono text-gray-400 stagger">
+            <p className="hover:text-white transition-colors">
+              ric_pagulayan@gmail.com
+            </p>
+            <p className="hover:text-white transition-colors">
+              sherwin_yaun@dlsu.edu.ph
+            </p>
+          </div>
         </div>
       </section>
     </div>
