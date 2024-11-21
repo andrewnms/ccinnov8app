@@ -150,8 +150,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="section">
+      {/* Footer */}
+      <footer className="py-12 border-t border-white/10">
         <div className="max-w-4xl mx-auto text-center reveal">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 stagger">
             got questions?
@@ -160,15 +160,18 @@ const Index = () => {
             contact us here
           </p>
           <div className="space-y-4 font-mono text-gray-400 stagger">
-            <p className="hover:text-white transition-colors">
+            <p className="hover:text-white transition-colors cursor-pointer">
               ric_pagulayan@gmail.com
             </p>
-            <p className="hover:text-white transition-colors">
+            <p className="hover:text-white transition-colors cursor-pointer">
               sherwin_yaun@dlsu.edu.ph
             </p>
           </div>
+          <div className="mt-12 text-sm text-gray-500 stagger">
+            © {new Date().getFullYear()} CCInnov8. All rights reserved.
+          </div>
         </div>
-      </section>
+      </footer>
     </div>
   );
 };
