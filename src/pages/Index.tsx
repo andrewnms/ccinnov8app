@@ -173,7 +173,7 @@ const Index = () => {
           </p>
           <div className="space-y-4 font-mono text-gray-400 stagger">
             <p className="hover:text-white transition-colors">
-              ric_pagulayan@gmail.com
+              ric_pagulayan@dlsu.edu.ph
             </p>
             <p className="hover:text-white transition-colors">
               sherwin_yaun@dlsu.edu.ph
