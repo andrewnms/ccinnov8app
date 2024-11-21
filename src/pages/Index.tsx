@@ -43,7 +43,6 @@ const Index = () => {
 
   return (
     <div className="bg-black text-white overflow-hidden">
-      {/* Hero Section */}
       <section className="section">
         <div className="max-w-4xl mx-auto text-center reveal">
           <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight stagger">
@@ -119,7 +118,7 @@ const Index = () => {
             />
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
             <img 
               src="/IMG_0005.png"
               alt="Company Logo 1"
