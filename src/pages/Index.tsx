@@ -57,19 +57,25 @@ const Index = () => {
           </p>
           <p className="text-lg mb-8 text-gray-300 stagger">misfits are welcomed.</p>
           <div className="flex flex-col gap-4 justify-center stagger">
-            <Button
-              onClick={handleWaitlist}
-              className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-6 rounded-none w-[200px] mx-auto"
-            >
-              get on the waitlist
-            </Button>
-            <Button
-              variant="outline"
-              className="border-white text-white hover:bg-white/10 rounded-none w-[200px] mx-auto py-2 px-6"
-            >
-              class syllabus
-            </Button>
-          </div>
+  <Button
+    onClick={handleWaitlist}
+    className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-6 rounded-none w-[200px] mx-auto"
+  >
+    get on the waitlist
+  </Button>
+  <Button
+    onClick={() =>
+      window.open(
+        'https://docs.google.com/document/d/1I_s7eK3RdhbV1Jt0gZPj6qxr4S87KrSrzO-rQxTz8ag/edit?usp=sharing',
+        '_blank'
+      )
+    }
+    variant="outline"
+    className="border-white text-white hover:bg-white/10 rounded-none w-[200px] mx-auto py-2 px-6"
+  >
+    class syllabus
+  </Button>
+</div>
         </div>
       </section>
 
