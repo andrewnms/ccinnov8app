@@ -123,27 +123,27 @@ const Index = () => {
             <img 
               src="/IMG_0005.png"
               alt="Company Logo 1"
-              className="h-24 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="/IMG_0006.png"
               alt="Company Logo 2"
-              className="h-24 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="/IMG_0007.png"
               alt="Company Logo 3"
-              className="h-24 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="/IMG_0008.png"
               alt="Company Logo 4"
-              className="h-24 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
               src="/IMG_0009.png"
               alt="Company Logo 5"
-              className="h-24 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
 
