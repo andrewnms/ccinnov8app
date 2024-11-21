@@ -118,33 +118,35 @@ const Index = () => {
               className="w-full max-w-lg mx-auto shadow-2xl border border-white/20"
             />
           </div>
+
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
             <img 
-              src="/lovable-uploads/apple-logo.png"
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&"
               alt="Apple"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/linkedin-logo.png"
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&"
               alt="LinkedIn"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/hp-logo.png"
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&"
               alt="HP"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/oracle-logo.png"
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&"
               alt="Oracle"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
             <img 
-              src="/lovable-uploads/amd-logo.png"
+              src="https://cdn.discordapp.com/attachments/1300812366904168479/1305896227577266176/boweigaiheadshot.jpg?ex=67394f63&is=6737fde3&hm=10bdbdf609caedde7024a5c7a54de321903615afaa93560bd7caa48df2309a25&"
               alt="AMD"
               className="h-12 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
             />
           </div>
+
           <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
         </div>
       </section>
