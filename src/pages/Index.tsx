@@ -67,7 +67,7 @@ const Index = () => {
     onClick={handleWaitlist}
     className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-6 rounded-none w-[200px] mx-auto"
   >
-    get on the waitlist
+    get on the classlist
   </Button>
   <Button
     onClick={() =>
