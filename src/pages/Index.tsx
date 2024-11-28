@@ -58,7 +58,7 @@ const Index = () => {
           <p className="text-lg mb-8 text-gray-300 stagger">
   misfits welcomed.
 <p className="text-sm text-gray-400 stagger">
-  (all students from all schools; sit-ins allowed)
+  (all students from all schools; sit-ins welcomed)
 </p>
 </p>
 
