@@ -53,12 +53,12 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400 stagger">
-            experience a new way of learning entrepreneurship with the all new ccinnov8 class.
+            entrepreneurship class for the rule-breakers.
           </p>
           <p className="text-lg mb-8 text-gray-300 stagger">
-  misfits are welcomed.
+  misfits welcomed.
 <p className="text-sm text-gray-400 stagger">
-  (all students from all colleges)
+  (all students from all schools)
 </p>
 </p>
 
