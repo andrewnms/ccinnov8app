@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
@@ -67,7 +68,7 @@ const Index = () => {
               onClick={handleWaitlist}
               className="bg-white hover:bg-gray-200 text-black font-bold py-2 px-6 rounded-none w-[200px] mx-auto"
             >
-              hop on the 2026 waitlist
+              get on the 2026 waitlist
             </Button>
             <Button
               onClick={() =>
