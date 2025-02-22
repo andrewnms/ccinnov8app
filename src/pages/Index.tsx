@@ -52,11 +52,8 @@ const Index = () => {
               start building.
             </span>
           </h1>
-          <p className="text-xl md:text-2xl mb-4 font-mono text-gray-400 stagger">
+          <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400 stagger">
             entrepreneurship class for the rule-breakers.
-          </p>
-          <p className="text-lg md:text-xl mb-8 font-mono text-gray-400 stagger">
-            now accepting members for batch 2026.
           </p>
           <p className="text-lg mb-8 text-gray-300 stagger">
   misfits welcomed.
