@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
+import { MisfitLetters } from "@/components/StudentTestimonials";
 
 const Index = () => {
   const { toast } = useToast();
@@ -115,6 +116,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Misfit Letters Section */}
+      <MisfitLetters />
 
       {/* Professor Section */}
       <section className="section">
