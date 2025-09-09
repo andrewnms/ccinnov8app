@@ -122,7 +122,7 @@ const Index = () => {
       {/* Come Join Us Section */}
       <section className="section">
         <div className="max-w-4xl mx-auto text-center reveal">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">come join us</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 pt-4 stagger">come join us</h2>
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
             be a founder, investor, builder, or a dreamer...
           </p>
