@@ -17,171 +17,147 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 const misfitLetters = [
   {
     id: 1,
-    category: "JOURNEY",
-    headline: "Great Journey Ahead",
-    quote: "I honestly think you would be missing out on a great journey if you don't take this class! You get to meet a lot of driven people and you get to learn many things as you go through this class. Although be prepared to give your 101% for this class since it is a bit fast paced, but trust me, it is worth it 😊.",
-    author: "Luis Miguel Antonio Razon",
-    title: "Startup Community Builder"
+    category: "DEDICATION",
+    headline: "Give Everything You Have",
+    quote: "Be ready to dedicate a lot of yourself to this class. You'll get nothing out of it if you don't give your blood, sweat, and tears for it. It's been very stressful, but also very fun. This class has made me feel so many ups and downs that helped me grow as a person and as an entrepreneur. Trust me, it's so worth it, but only if you really want it.",
+    author: "Andrew Hiro C. Ishikawa",
+    title: "Andrew Hiro C. Ishikawa"
   },
   {
     id: 2,
-    category: "VICTORY",
-    headline: "Winning Philosophy",
-    quote: "Winning is disgusting, nasty, and ugly but it's everything. We'll teach you how. Just put in the hours.",
-    author: "Andrew Pagulayan",
-    title: "Victory Strategist"
+    category: "RESILIENCE",
+    headline: "Fail Fast, Rise Faster",
+    quote: "Scared of failing? Just do it. Fail fast, get up faster.",
+    author: "Ysobella Torio",
+    title: "Ysobella Torio"
   },
   {
     id: 3,
-    category: "QUALITY",
-    headline: "Best Class Ever",
-    quote: "Best. Class. Ever. (And I'm not even a student anymore)",
-    author: "Bernard Lu",
-    title: "Alumni Champion"
+    category: "IMMERSION",
+    headline: "Beyond A Class",
+    quote: "This is not just a class, this is a class where you come out being absorbed by the startup environment. You don't have to be experienced with it, you just need the guts and sheer will to keep continuing fully knowing you will be failing",
+    author: "Zach Matthew B. Noche",
+    title: "Zach Matthew B. Noche"
   },
   {
     id: 4,
-    category: "SELF-DISCOVERY",
-    headline: "Your Greatest Enemy And Ally",
-    quote: "You will hate yourself, you will love yourself and you will realize that you are both your own greatest enemy and ally. Work on yourself, maintain your relationships and be absolutely-fucking-crazy.",
-    author: "Nelle Basilio",
-    title: "Self-Mastery Advocate"
+    category: "TRANSFORMATION",
+    headline: "Life Turned Upside Down",
+    quote: "Dear future misfit students, this class is definitely not for everyone but I hope that you give it a chance! I was so close to giving up but who knew that in the next month, our team managed to win the hackathon.. then in the next month, we won the Big 3 Showdown! I was an introvert who only ever dreamed of achieving such things.. now here I am! My life turned upside down in just the span of 3 months. I hope you guys get to experience the same thing. Good luck future misfits!",
+    author: "Anna Katrina So",
+    title: "Anna Katrina So"
   },
   {
     id: 5,
-    category: "INSTRUCTOR",
-    headline: "Crazy Professor",
-    quote: "Bowei is a crazy guy T_T.",
-    author: "Hans Lumagui",
-    title: "Surviving The Madness"
+    category: "VALUE",
+    headline: "Practical Knowledge For Life",
+    quote: "Compared to the others, I'm not as big of a success. But, the practical knowledge gained from this class: it makes everyone a winner, this info is usable for a long time. Also this is worth spending your tuition on instead of what (I've seen) the normal CCINOV8 is.",
+    author: "Diego David P. Yason",
+    title: "Diego David P. Yason"
   },
   {
     id: 6,
-    category: "TRANSFORMATION",
-    headline: "Throw It All Out",
-    quote: "Buckle up. This is the class where you take what you think you can do, and throw it all out the window. Get ready to go from someone who takes classes about building a startup, to potentially someone who has their own startup. This is the closest thing you'll get to a class that helps you build a business within a term.",
-    author: "Kendrick Pua",
-    title: "Startup Builder"
+    category: "CONQUEST",
+    headline: "Conquer Your Challenges",
+    quote: "Don't be scared of challenges, conquer them and conquer yourself.",
+    author: "Renzo Chua",
+    title: "Renzo Chua"
   },
   {
     id: 7,
-    category: "FAILURE",
-    headline: "Fail Early, Learn Fast",
-    quote: "Try and try no matter what even if you fail, because it's better to fail early and know what not to do, rather than fail later on in life when you don't have enough time on your hands anymore. So don't be afraid of failure.",
-    author: "Matthew Suarez",
-    title: "Early Failure Advocate"
+    category: "SELF-DISCOVERY",
+    headline: "Find Your Strength",
+    quote: "Join this class—you won't regret it. It's more than lessons; it's where you'll find yourself, challenge your limits, and grow with people who get what it means to be different. Here, being a misfit is your strength. This class has changed my life, I hope it changes yours too.",
+    author: "Harrie Singson Que",
+    title: "Harrie Singson Que"
   },
   {
     id: 8,
-    category: "FEARLESSNESS",
-    headline: "You Define The End",
-    quote: "Hello~ do not fear what is to come; whether you fail or succeed, it is not the end:\n\nIt ends when you say it ends.",
-    author: "Christian Dave Tordillo",
-    title: "Fearless Entrepreneur"
+    category: "LEARNING",
+    headline: "Learn From Our Mistakes",
+    quote: "I want them to learn from our mistakes and do an even better job in the future",
+    author: "Jules Callanta",
+    title: "Jules Callanta"
   },
   {
     id: 9,
-    category: "EXCELLENCE",
-    headline: "Be The Best",
-    quote: "You guys undoubtedly will be the best students not just in your major, not just in DLSU, but the entire Philippines. Just put your 110% effort into it. You dont need to be the best talker or the smartest programmer. Passion and drive pulls out the best of you. So join up.",
-    author: "Jake Rivera",
-    title: "Excellence Champion"
+    category: "ADVANTAGE",
+    headline: "Get Ahead Of Everyone",
+    quote: "Take it as soon as you possibly can, having the skills you get from this class gets you a very long way ahead of everyone. It's hard, it's difficult, but if you want to be successful outside of academics, it's going to be worth it.",
+    author: "Bien Aaron Miranda",
+    title: "Bien Aaron Miranda"
   },
   {
     id: 10,
-    category: "SUPPORT",
-    headline: "Together We Succeed",
-    quote: "This will be a tough path, but together we can make startups successful, so go join because we will get you support.",
-    author: "Francisco III Perez",
-    title: "Community Support Leader"
+    category: "BELIEF",
+    headline: "Challenge And Believe",
+    quote: "Keep challenging Bowei. If you truly believe your idea is good, show that its good. Just,,, make sure you'll actually be successful LOL",
+    author: "Reign Larraquel",
+    title: "Reign Larraquel"
   },
   {
     id: 11,
-    category: "WORTH IT",
-    headline: "Worth The Work",
-    quote: "It's a lot of work, but it will all be worth it in the end.",
-    author: "Rinaldo Lee",
-    title: "Perseverance Advocate"
+    category: "DIRECTION",
+    headline: "Change Your Life Trajectory",
+    quote: "If you're like me who was aimless in life, do everything in your power to join. You will change your life trajectory.",
+    author: "Lorenzo Ambrosio",
+    title: "Lorenzo Ambrosio"
   },
   {
     id: 12,
-    category: "LIMITS",
-    headline: "Push Your Limits",
-    quote: "The misfits class will push you to your limits and have you doubt your own capabilities. Only those with the drive, motivation, passion, and ability, will survive. Those who come out of it though will prosper.",
-    author: "Stefano Nicholas E. Santos",
-    title: "Limit Breaker"
+    category: "OPPORTUNITY",
+    headline: "Don't Waste This Chance",
+    quote: "If you get the opportunity to be able to participate in this class, don't waste it. I sure as hell would regret it if I did, thinking \"what could've been if I just stuck with it\" a few years later knowing what we pulled off in this class.",
+    author: "Jasper Gabriel Raymundo",
+    title: "Jasper Gabriel Raymundo"
   },
   {
     id: 13,
-    category: "PERSEVERANCE",
-    headline: "Never Give Up",
-    quote: "NEVER. GIVE. UP.\n\nTake this class seriously and view it as a gateway to something greater. Believe in yourself and reach new heights in the span of a few MONTHS.",
-    author: "Clarence Ivan Ang",
-    title: "Peak Performance Achiever"
+    category: "FILTER",
+    headline: "The Great Filter",
+    quote: "This class is absolutely worth it... only if you're willing to let it teach you something. It might seem demanding but it's demanding for a reason. Ultimately, this class is a great filter, and by the end of it (if you haven't been kicked out) you'll have learned more about not just entrepreneurship but a lot of important things about yourself.",
+    author: "Malks Mogen David",
+    title: "Malks Mogen David"
   },
   {
     id: 14,
-    category: "LIFE CHANGE",
-    headline: "Life-Changing",
-    quote: "Just go, this will change your life.",
-    author: "Sherna Yaun",
-    title: "Life Transformation Expert"
+    category: "COMMITMENT",
+    headline: "Worth So Much More",
+    quote: "Not only do you have to know what youre going into, but also you have to commit in order to stay in this class. If you do though, this class will change your worldview. This class is not worth your time, it is worth so much more.",
+    author: "Clive Jarel Ang",
+    title: "Clive Jarel Ang"
   },
   {
     id: 15,
-    category: "WORK ETHIC",
-    headline: "Put In The Work",
-    quote: "Do not come to this class if you are not going to put in the work",
-    author: "Josh Austin Mikhail T. Natividad",
-    title: "Hard Work Evangelist"
+    category: "STRUGGLE",
+    headline: "Nothing To Lose, Everything To Gain",
+    quote: "Always remember this: If you are going in the right direction things SHOULD NOT be easy; the struggle will teach you things you didn't know before - Nipsy Hussle\n\nYou have nothing to lose but everything to gain.",
+    author: "Paul Benedict A. Marasigan",
+    title: "Paul Benedict A. Marasigan"
   },
   {
     id: 16,
-    category: "BALANCE",
-    headline: "Balance Is Key",
-    quote: "Take everything seriously but not too serious",
-    author: "Raphael Tapiador",
-    title: "Zen Entrepreneur"
+    category: "REALITY",
+    headline: "This Is Where You Learn",
+    quote: "This class will matter more than any other.\n\nThe rest? Prepare to ignore them. Most of your classes will feel like a waste of time compared to this. If you have papers, use ChatGPT. If you have assignments, just do the minimum.\n\nWhy? Because this is where you'll actually learn.\nYou'll talk to real people, face real problems, and build things that might fail.\n\nAnd that's the point — this is real.\n\nIf you're ready for that, welcome.",
+    author: "Sherwin Yaun",
+    title: "Sherwin Yaun"
   },
   {
     id: 17,
-    category: "COMMUNITY",
-    headline: "Build The Future",
-    quote: "Join this community, it will change your life. Be part of the movement. This is the community that will build the future.",
-    author: "Marcus Gavriel S. Tanael",
-    title: "Future Builder"
+    category: "NEW WORLD",
+    headline: "A New World Awaits",
+    quote: "Goodluck this will be a new world for you",
+    author: "Chen Shawn Shaowei C.",
+    title: "Chen Shawn Shaowei C."
   },
   {
     id: 18,
-    category: "VISION",
-    headline: "Know What You Bring",
-    quote: "I don't code. I hate math. Shifted the hell out of engineering and took up Organizational Communications. I have no regrets. I know what I'm capable of, and what I know is that I have a strong vision. I can create strong visuals, great music, and I can apply it to any project that I can believe in. And I applied it in this class for our startup, and it worked. It's all a matter of knowing what you're capable of and what you're bringing to the table",
-    author: "Sancho Go",
-    title: "Creative Visionary"
-  },
-  {
-    id: 19,
-    category: "TIME",
-    headline: "Make Time For This",
-    quote: "Take a lighter load to make time for this. You won't regret making more time for this.",
-    author: "Donnald Miguel Robles",
-    title: "Priority Master"
-  },
-  {
-    id: 20,
-    category: "VALUE",
-    headline: "Skip Other Classes",
-    quote: "Soak up every lesson. Even if you have another class, record and skip it. This class is worth every general business class i had my whole stay combined",
-    author: "Theresa Chu",
-    title: "Value Maximizer"
-  },
-  {
-    id: 21,
-    category: "STARTUP MINDSET",
-    headline: "You Only Need One Win",
-    quote: "In the corporate world, change takes time. Years, possibly. Your impact will be miniscule and by the end of your career, you'd have a lingering feeling of \"what if i could have done this\".\n\nWhen you're making a startup, you start with an idea and end with an actual product in your hands. The closest thing we can get (for now) to re-enacting an act of God and our only chance of changing the world.\n\nYou can lose 99 times, but in the startup world? You only need one win.",
-    author: "Ji Chan",
-    title: "Startup Philosopher"
+    category: "GROWTH",
+    headline: "Change The World",
+    quote: "This class will not be for everyone, but I am confident that if you can stick through it, survive the initial storm, and find the determination to keep going, it will be the best class you'll ever take. There will be lots of hardships, arguments, difficult decisions, self-doubt, and so much more trouble to face; but, hey, that's what happens when you build a startup. But I promise you the outcome will be worth it: you will grow tenfold in just the 3-4 months you'll be a part of this class.\n\nIf you're crazy enough to think you can change the world, then join the Misfits Community.",
+    author: "Enrique Lejano",
+    title: "Enrique Lejano"
   }
 ];
 
