@@ -108,50 +108,20 @@ const Index = () => {
       {/* Misfit Letters Section */}
       <MisfitLetters />
 
-      {/* Professor Section */}
+      {/* Come Join Us Section */}
       <section className="section">
         <div className="max-w-4xl mx-auto text-center reveal">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">who's your prof? Gai. Bowei Gai.</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 stagger">come join us</h2>
           <p className="text-xl text-gray-400 mb-8 font-mono stagger">
-            founder, investor, builder, dreamer...
+            be a founder, investor, builder, or a dreamer...
           </p>
           <div className="stagger mb-12">
             <img 
-              src="/Screenshot_2024-11-21_at_3.59.24_PM.jpeg" 
-              alt="Bowei Gai Headshot"
-              className="w-full max-w-md mx-auto shadow-2xl border border-white/20 rounded-full"
+              src="/lovable-uploads/9c10832f-da3c-4344-b116-42dad436d1c6.png" 
+              alt="Group photo of students"
+              className="w-full max-w-4xl mx-auto shadow-2xl border border-white/20 rounded-lg"
             />
           </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-center justify-items-center stagger border border-dashed border-white/20 p-8 bg-white/5">
-            <img 
-              src="/IMG_0005.png"
-              alt="Company Logo 1"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
-              src="/IMG_0006.png"
-              alt="Company Logo 2"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
-              src="/IMG_0007.png"
-              alt="Company Logo 3"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
-              src="/IMG_0008.png"
-              alt="Company Logo 4"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-            <img 
-              src="/IMG_0009.png"
-              alt="Company Logo 5"
-              className="h-16 w-auto mx-auto opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-            />
-          </div>
-
-          <p className="text-sm text-gray-400 mt-4 font-mono stagger">(he worked in these companies btw)</p>
         </div>
       </section>
 
