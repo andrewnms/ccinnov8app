@@ -72,17 +72,6 @@ const Index = () => {
               get on the 2026 waitlist
             </Button>
           </div>
-          
-          <div className="flex items-center justify-center gap-3 mt-12 stagger">
-            <img 
-              src="/lovable-uploads/232705e7-f412-480b-bcec-9cdceeafba01.png" 
-              alt="DLSU Animo Labs Logo"
-              className="w-8 h-8"
-            />
-            <p className="text-sm text-gray-400 font-mono">
-              hosted by DLSU Animo Labs.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -155,6 +144,16 @@ const Index = () => {
           </div>
         </div>
       </section>
+          <div className="flex items-center justify-center gap-3 mt-12 stagger">
+            <img 
+              src="/lovable-uploads/232705e7-f412-480b-bcec-9cdceeafba01.png" 
+              alt="DLSU Animo Labs Logo"
+              className="w-8 h-8"
+            />
+            <p className="text-sm text-gray-400 font-mono">
+              hosted by DLSU Animo Labs.
+            </p>
+          </div>
     </div>
   );
 };
