@@ -144,7 +144,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-          <div className="flex items-center justify-center gap-3 mt-12 stagger">
+          <div className="flex items-center justify-center gap-3 mt-12 mb-8 stagger">
             <img 
               src="/lovable-uploads/232705e7-f412-480b-bcec-9cdceeafba01.png" 
               alt="DLSU Animo Labs Logo"
