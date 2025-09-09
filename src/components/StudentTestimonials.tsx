@@ -340,13 +340,15 @@ function MisfitLetters() {
       api.scrollNext();
     }, 6000);
 
-    api.on("select", () => {
+    const selectHandler = () => {
       setCurrent(api.selectedScrollSnap());
-    });
+    };
+
+    api.on("select", selectHandler);
 
     return () => {
       clearInterval(intervalId);
-      api.off("select");
+      api.off("select", selectHandler);
     };
   }, [api]);
 

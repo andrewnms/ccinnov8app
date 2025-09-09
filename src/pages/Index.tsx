@@ -71,18 +71,6 @@ const Index = () => {
             >
               get on the 2026 waitlist
             </Button>
-            <Button
-              onClick={() =>
-                window.open(
-                  'https://docs.google.com/document/d/1I_s7eK3RdhbV1Jt0gZPj6qxr4S87KrSrzO-rQxTz8ag/edit?usp=sharing',
-                  '_blank'
-                )
-              }
-              variant="outline"
-              className="border-white text-white hover:bg-white/10 rounded-none w-[200px] mx-auto py-2 px-6"
-            >
-              class syllabus
-            </Button>
           </div>
         </div>
       </section>
@@ -94,15 +82,15 @@ const Index = () => {
             {[
               {
                 title: "more doing, less lecturing",
-                description: "we focus on activities to simulate building a startup",
+                description: "we build real startups. no theories.",
               },
               {
-                title: "battle for money and prizes",
-                description: "life is more fun when you compete with others",
+                title: "break stupid rules",
+                description: "think you can do better? we'll support you!",
               },
               {
-                title: "cheating allowed",
-                description: "and it is encouraged! work smart, not hard.",
+                title: "learn to fail",
+                description: "if you always succeed, your goals are too low",
               },
             ].map((feature, index) => (
               <div
