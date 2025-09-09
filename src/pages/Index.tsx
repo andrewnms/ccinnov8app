@@ -55,7 +55,7 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 font-mono text-gray-400 stagger">
-            entrepreneurship class for the rule-breakers.
+            entrepreneurship community for the rule-breakers.
           </p>
           <p className="text-lg mb-8 text-gray-300 stagger">
   misfits welcomed.
